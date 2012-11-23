@@ -19,7 +19,6 @@ public class LocationDetail extends Activity {
     }
 
     class ButtonClickListener implements OnClickListener {
-    	@Override
     	public void onClick(View v) {
 			Intent i = new Intent(LocationDetail.this, LocationSettings.class);
 			startActivity(i);

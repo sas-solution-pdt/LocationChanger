@@ -20,7 +20,6 @@ public class LocationList extends Activity {
     }
 
     class ButtonClickListener implements OnClickListener {
-    	@Override
     	public void onClick(View v) {
 			Intent i = new Intent(LocationList.this, LocationDetail.class);
 			startActivity(i);
