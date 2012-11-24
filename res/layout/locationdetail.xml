@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent">
-    <Button android:text="←" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-    <Button android:text="→" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".LocationDetail" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="マップ画面" >
+        </Button>
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="センサ画面" >
+        </Button>
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="戻る" >
+        </Button>
+    </LinearLayout>
+
 </LinearLayout>

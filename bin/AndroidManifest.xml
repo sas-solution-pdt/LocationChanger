@@ -6,17 +6,17 @@
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:label="@string/app_name" android:name="Locationlist">
+        <activity android:label="@string/app_name" android:name=".LocationList">
                     <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="locationdetail"></activity>
-        <activity android:name="locationsettings"></activity>
-        <activity android:name="sensorsettings"></activity>
+        <activity android:name=".LocationDetail"></activity>
+        <activity android:name=".LocationSettings"></activity>
+        <activity android:name=".SensorSettings"></activity>
         <uses-library android:name="com.google.android.maps"></uses-library>
-        
+
 
     </application>
 </manifest>

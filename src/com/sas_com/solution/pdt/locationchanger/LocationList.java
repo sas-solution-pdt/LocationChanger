@@ -8,7 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class LocationList extends Activity {
-    /** Called when the activity is first created. */
+
 	private Button m_button;
 
     @Override
