@@ -11,27 +11,38 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int gps=0x7f020000;
-        public static final int icon=0x7f020001;
-        public static final int kbluetoothd_32x32=0x7f020002;
-        public static final int kwifimanager_32x32=0x7f020003;
-        public static final int kwifimanager_64x64=0x7f020004;
+        public static final int bluetooth128x128=0x7f020000;
+        public static final int brightness_128x128=0x7f020001;
+        public static final int gps_128x128=0x7f020002;
+        public static final int icon=0x7f020003;
+        public static final int sync_128x128=0x7f020004;
+        public static final int wifi_64x64=0x7f020005;
+        public static final int wifitethering_64x64=0x7f020006;
     }
     public static final class id {
-        public static final int ImageView01=0x7f050005;
-        public static final int ImageView02=0x7f050008;
-        public static final int ImageView03=0x7f05000b;
-        public static final int TextView01=0x7f050006;
-        public static final int TextView02=0x7f050009;
-        public static final int TextView03=0x7f05000c;
+        public static final int ImageView_BlueTooth=0x7f05000e;
+        public static final int ImageView_Brightness=0x7f050014;
+        public static final int ImageView_GPS=0x7f05000b;
+        public static final int ImageView_Sync=0x7f050011;
+        public static final int ImageView_Tethering=0x7f050008;
+        public static final int ImageView_WiFi=0x7f050005;
+        public static final int TextView_BlueTooth=0x7f05000f;
+        public static final int TextView_Brightness=0x7f050015;
+        public static final int TextView_GPS=0x7f05000c;
+        public static final int TextView_Sync=0x7f050012;
+        public static final int TextView_Tethering=0x7f050009;
+        public static final int TextView_WiFi=0x7f050006;
         public static final int button01=0x7f050000;
         public static final int button02=0x7f050001;
         public static final int button03=0x7f050002;
         public static final int button1=0x7f050003;
         public static final int mapview=0x7f050004;
-        public static final int toggleButton01=0x7f050007;
-        public static final int toggleButton02=0x7f05000a;
-        public static final int toggleButton03=0x7f05000d;
+        public static final int toggleButton_BlueTooth=0x7f050010;
+        public static final int toggleButton_Brightness=0x7f050016;
+        public static final int toggleButton_GPS=0x7f05000d;
+        public static final int toggleButton_Sync=0x7f050013;
+        public static final int toggleButton_Tethering=0x7f05000a;
+        public static final int toggleButton_WiFi=0x7f050007;
     }
     public static final class layout {
         public static final int locationdetail=0x7f030000;

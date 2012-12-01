@@ -8,58 +8,101 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
+
         <ImageView
-            android:id="@+id/ImageView01"
-            android:layout_width="62dp"
-            android:layout_height="62dp"
+            android:id="@+id/ImageView_WiFi"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:maxHeight="48dp"
             android:maxWidth="48dp"
             android:minHeight="48dp"
             android:minWidth="48dp"
-            android:src="@drawable/kwifimanager_64x64"
+            android:src="@drawable/wifi_64x64"
             android:tag="icon" >
+
 		</ImageView>
+
         <TextView
-            android:id="@+id/TextView01"
-            android:layout_width="180dp"
+            android:id="@+id/TextView_WiFi"
+            android:layout_width="192dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:tag="text"
             android:text="Wi-Fi"
             android:textColor="#FFFFFF"
             android:textSize="24dp" >
+
 		</TextView>
         <ToggleButton
-            android:id="@+id/toggleButton01"
+            android:id="@+id/toggleButton_WiFi"
             android:layout_width="73dp"
             android:layout_height="fill_parent"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
+
         <ImageView
-            android:id="@+id/ImageView02"
-            android:layout_width="62dp"
-            android:layout_height="62dp"
+            android:id="@+id/ImageView_Tethering"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:maxHeight="48dp"
             android:maxWidth="48dp"
             android:minHeight="48dp"
             android:minWidth="48dp"
-            android:src="@drawable/gps"
+            android:src="@drawable/wifitethering_64x64"
             android:tag="icon" >
+
 		</ImageView>
+
         <TextView
-            android:id="@+id/TextView02"
-            android:layout_width="180dp"
+            android:id="@+id/TextView_Tethering"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:tag="text"
+            android:text="Wi-Fiテザリング"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" >
+
+		</TextView>
+        <ToggleButton
+            android:id="@+id/toggleButton_Tethering"
+            android:layout_width="73dp"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView_GPS"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:maxHeight="48dp"
+            android:maxWidth="48dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:src="@drawable/gps_128x128"
+            android:tag="icon" >
+
+		</ImageView>
+
+        <TextView
+            android:id="@+id/TextView_GPS"
+            android:layout_width="192dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:tag="text"
             android:text="GPS"
             android:textColor="#FFFFFF"
             android:textSize="24dp" >
+
 		</TextView>
         <ToggleButton
-            android:id="@+id/toggleButton02"
+            android:id="@+id/toggleButton_GPS"
             android:layout_width="73dp"
             android:layout_height="fill_parent"/>
     </LinearLayout>
@@ -69,29 +112,100 @@
         android:layout_height="wrap_content" >
 
         <ImageView
-            android:id="@+id/ImageView03"
-            android:layout_width="62dp"
-            android:layout_height="62dp"
+            android:id="@+id/ImageView_BlueTooth"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:maxHeight="48dp"
             android:maxWidth="48dp"
             android:minHeight="48dp"
             android:minWidth="48dp"
-            android:src="@drawable/kbluetoothd_32x32"
+            android:src="@drawable/bluetooth128x128"
             android:tag="icon" >
 
 		</ImageView>
+
         <TextView
-            android:id="@+id/TextView03"
-            android:layout_width="180dp"
+            android:id="@+id/TextView_BlueTooth"
+            android:layout_width="192dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:tag="text"
             android:text="BlueTooth"
             android:textColor="#FFFFFF"
             android:textSize="24dp" >
+
 		</TextView>
         <ToggleButton
-            android:id="@+id/toggleButton03"
+            android:id="@+id/toggleButton_BlueTooth"
+            android:layout_width="73dp"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView_Sync"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:maxHeight="48dp"
+            android:maxWidth="48dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:src="@drawable/sync_128x128"
+            android:tag="icon" >
+
+		</ImageView>
+
+        <TextView
+            android:id="@+id/TextView_Sync"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:tag="text"
+            android:text="自動同期"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" >
+
+		</TextView>
+        <ToggleButton
+            android:id="@+id/toggleButton_Sync"
+            android:layout_width="73dp"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView_Brightness"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:maxHeight="48dp"
+            android:maxWidth="48dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:src="@drawable/brightness_128x128"
+            android:tag="icon" >
+
+		</ImageView>
+
+        <TextView
+            android:id="@+id/TextView_Brightness"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:tag="text"
+            android:text="明るさ"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" >
+
+		</TextView>
+        <ToggleButton
+            android:id="@+id/toggleButton_Brightness"
             android:layout_width="73dp"
             android:layout_height="fill_parent"/>
     </LinearLayout>
